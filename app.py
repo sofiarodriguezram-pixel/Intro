@@ -11,7 +11,6 @@ st.set_page_config(
 # --- ESTILOS PERSONALIZADOS ---
 page_style = """
 <style>
-    /* Fuente personalizada */
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
 
     html, body, [data-testid="stAppViewContainer"] {
@@ -20,17 +19,13 @@ page_style = """
         color: #333333;
     }
 
-    /* Título principal */
-    h1 {
-        color: #cc92f7; //
-        text-align: center;
+    /* Forzar color de los títulos */
+    h1, h2, h3 {
         font-weight: 700;
-    }
-
-    /* Encabezado secundario */
-    h2, h3 {
-        color: #ff6f61; /* Coral */
-        font-weight: 600;
+        text-align: center;
+        background: -webkit-linear-gradient(45deg, #5c6bc0, #7e57c2, #64b5f6);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
 
     /* Cuadro de texto */
@@ -44,7 +39,7 @@ page_style = """
     /* Pie de imagen */
     figcaption {
         font-style: italic;
-        color: #555555;
+        color: #666666;
     }
 </style>
 """
