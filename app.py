@@ -22,7 +22,7 @@ page_style = """
 
     /* Título principal */
     h1 {
-        color: #4b0082; /* Morado oscuro */
+        color: #cc92f7; //
         text-align: center;
         font-weight: 700;
     }
